@@ -6,7 +6,7 @@ if exist "C:\Program Files\7-Zip\7z.exe" (
 )
 
 :zip
-cd source/code
+cd code
 "C:\Program Files\7-Zip\7z.exe" a -tzip "../windows/gameZip/game.love" .
 
 "../windows/gameZip/game.love"
