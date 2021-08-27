@@ -1,4 +1,10 @@
 @echo off
+copy NUL gz.log > nul
+set logfile=gz.log
+call :loghere > %logfile%
+exit /b
+
+:loghere
 if exist "C:\Program Files\7-Zip\7z.exe" (
     goto zip
 ) else (
