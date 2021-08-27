@@ -7,8 +7,8 @@ if exist "C:\Program Files\7-Zip\7z.exe" (
 
 :zip
 cd code
-"C:\Program Files\7-Zip\7z.exe" a -tzip "../windows/gameZip/game.love" .
+"C:\Program Files\7-Zip\7z.exe" a -tzip "../build/gameZip/game.love" .
 
-"../windows/gameZip/game.love"
+"../build/gameZip/game.love"
 
 echo Done!
